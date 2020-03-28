@@ -1,0 +1,21 @@
+CREATE TABLE "cvdata" (
+	"AcceptedAnswerId"	INTEGER DEFAULT 0,
+	"AnswerCount"	INTEGER DEFAULT 0,
+	"Body"	TEXT DEFAULT NULL,
+	"ClosedDate"	TEXT DEFAULT NULL,
+	"CommentCount"	INTEGER DEFAULT 0,
+	"CreationDate"	TEXT DEFAULT NULL,
+	"FavoriteCount"	INTEGER DEFAULT 0,
+	"id"	INTEGER NOT NULL UNIQUE,
+	"LastActivityDate"	TEXT DEFAULT NULL,
+	"LastEditDate"	TEXT DEFAULT NULL,
+	"LastEditorUserId"	INTEGER DEFAULT 0,
+	"OwnerDisplayName"	TEXT DEFAULT NULL,
+	"OwnerUserId"	INTEGER DEFAULT 0,
+	"ParentId"	INTEGER DEFAULT 0,
+	"PostTypeId"	INTEGER DEFAULT 0,
+	"Score"	INTEGER DEFAULT 0,
+	"Tags"	TEXT DEFAULT NULL,
+	"Title"	TEXT DEFAULT NULL,
+	"ViewCount"	INTEGER DEFAULT 0
+);
